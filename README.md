@@ -18,5 +18,6 @@ for 9x9
 
 like same it will works for all nxn matrices
 
-
+now the other part is finding multiple ans questions is now completed using backtracking 
+<img src="./images/9x92.png">
 <p align="right">THANKYOU </P>

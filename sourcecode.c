@@ -45,7 +45,7 @@ int sudoku_solver(int **arr, int n) {
 	                        if (sudoku_solver(arr, n)) {
 	                            if (i == (n - 1) && j == (n - 1)) {
 	                                print(arr, n);
-	                                //arr[i][j] = 0;// backtracking for multiple solutions
+	                                arr[i][j] = 0;// backtracking for multiple solutions after find the solution 
 	                            } else
 	                                return 1;
 	                        } else
